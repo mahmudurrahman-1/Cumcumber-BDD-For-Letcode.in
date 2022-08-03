@@ -1,16 +1,16 @@
 package utilities;
 
 
-        import driver.PageDriver;
-        import org.openqa.selenium.JavascriptExecutor;
-        import org.openqa.selenium.WebElement;
-        import org.openqa.selenium.interactions.Actions;
-        import org.openqa.selenium.support.ui.ExpectedCondition;
-        import org.openqa.selenium.support.ui.Select;
-        import org.openqa.selenium.support.ui.WebDriverWait;
-        import org.testng.asserts.SoftAssert;
+import driver.PageDriver;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.asserts.SoftAssert;
 
-        import java.time.Duration;
+import java.time.Duration;
 
 public class Common {
 
