@@ -9,7 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import java.time.Duration;
 
 public class BaseDriver {
-   public WebDriver driver;
+    public WebDriver driver;
 
     public WebDriver setup(String browser) {
         if (browser.contains("chrome")) {
