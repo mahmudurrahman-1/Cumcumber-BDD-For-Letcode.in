@@ -1,11 +1,13 @@
-package Cucumber;
+package cucumber_op;
 
 import driver.BaseDriver;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 
 import java.util.Properties;
+
 import utilities.DataParser;
+
 public class Hook extends BaseDriver {
     Properties prop = DataParser.loadProperties("environment.properties");
 
@@ -14,8 +16,9 @@ public class Hook extends BaseDriver {
         driver = setup(prop.getProperty("browser1"));
         driver.get(prop.getProperty("baseUrl"));
     }
+
     @After
-    public void close(){
+    public void close() {
         driver.quit();
     }
 }
